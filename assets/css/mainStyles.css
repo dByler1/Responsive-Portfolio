@@ -69,12 +69,15 @@ body {
   }
   
   #nav-logo {
-    color: #444;
+    color: #fff;
     text-decoration: none;
+    background: #4aaaa5;
+    font-size: 2em;
+    padding: 5px;
   }
-  #nav-logo:hover {
+  /* #nav-logo:hover {
     color: #666;
-  }
+  } */
   
   .nav-ul {
     display: flex;
