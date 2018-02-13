@@ -431,23 +431,24 @@ html {
       float:none;
       display: inline-block;
       position: static;
-      width: 768px;
+      width: 90%;
     }
 
     #mainContent {
         float: none;
         display: inline-block;
         position: static;
-        width: 768px;
+        width: 90%;
 
     }
     #contentArea {
-        width: 768px;
+        width: 100%;
         margin: auto;
 
     }
     #footer {
         position: relative;
+        width: 100%;
     }
   }
 
@@ -457,18 +458,18 @@ html {
       float:none;
       display: inline-block;
       position: static;
-      width: 640px;
+      width: 100%;
     }
 
     #mainContent {
         float: none;
         display: inline-block;
         position: static;
-        width: 640px;
+        width: 100%;
 
     }
     #contentArea {
-        max-width: 640px;
+        max-width: 100%;
         margin: auto;
 
     }
@@ -481,6 +482,7 @@ html {
     }
     #footer {
         position: relative;
+        width: 100%;
     }
   }
 
