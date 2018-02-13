@@ -431,12 +431,14 @@ html {
       float:none;
       display: inline-block;
       position: static;
+      width: 768px;
     }
 
     #mainContent {
         float: none;
         display: inline-block;
         position: static;
+        width: 768px;
 
     }
     #contentArea {
@@ -444,26 +446,41 @@ html {
         margin: auto;
 
     }
+    #footer {
+        position: relative;
+    }
   }
 
-  @media screen and (max-width: 640) {
+  @media screen and (max-width: 640px) {
     
     #sidebar {
       float:none;
       display: inline-block;
       position: static;
+      width: 640px;
     }
 
     #mainContent {
         float: none;
         display: inline-block;
         position: static;
+        width: 640px;
 
     }
     #contentArea {
-        width: 640px;
+        max-width: 640px;
         margin: auto;
 
+    }
+    #contentArea img {
+        float: none;
+
+    }
+    #contentArea p {
+        float: none;
+    }
+    #footer {
+        position: relative;
     }
   }
 
