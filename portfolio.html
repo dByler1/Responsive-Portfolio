@@ -7,34 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mainStyles.css" />
-
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
 </head>
 <body>
    
        <!-- NEW NAV -->
-       <div id="nav-background">
-            <div id="nav-container">
-                <header id="nav-header">
-                    <h1>
-                        <a id="nav-logo">Dan Byler</a>
-                    </h1>
-                    <div id="nav-menu-button">MENU</div>
-                </header>
-                <nav>
-                    <ul class="nav-ul hide-ul">
-                        <li>
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li>
-                            <a class="nav-link active-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+       <nav class='greedy'>
+        <h1>Dan Byler</h1>
+        <ul class='links'>
+          <li><a href='index.html'>About</a></li>
+          <li><a href='portfolio.html'>Portfolio</a></li>
+          <li><a href='contact.html'>Contact</a></li>
+          <li><a href='https://medium.com/@danbyler' target="_blank">Blog</a></li>
+        </ul>
+        <button>MENU</button>
+        <ul class='hidden-links hidden'></ul>
+      </nav>
    
     <!-- HEADER SECTION -->
 <!-- <div id="header" class="clearfix">
